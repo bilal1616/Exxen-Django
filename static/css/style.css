@@ -1,0 +1,93 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container-fluid {
+    padding: 0;
+}
+.containers {
+    width: 70% !important;
+}
+.exxen-spor {
+    font-size: 1.2rem;
+    background-color: black;
+    border: none;
+    padding: 10px 30px;
+}
+.uye-giris {
+    font-size: 1.2rem;
+    border: 1px solid black;
+    padding: 10px 30px;
+}
+.dropdown {
+    font-size: 1.2rem;
+}
+
+/* Üye ol*/
+.uye-ol {
+    background-color: rgb(22, 22, 22);
+}
+.kayit {
+    padding: 30px 0;
+}
+
+.kayit input {
+    width: 90%;
+    padding: 10px 20px;
+}
+.kayit input:focus {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: yellow;
+}
+.kayit button {
+    width: 90%;
+    padding: 10px 20px;
+}
+
+/* Filmler */
+.card {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.resimler {
+    width: 100%;
+}
+.resimler img {
+    width: 163px;
+    height: 43px;
+    margin: 5px;
+}
+
+.fa-brands {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+    margin-top: 30px;
+    padding: 3px;
+}
+.son {
+    background-color: rgb(22, 22, 22);
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(255, 193, 7);
+}
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 7px;
+}

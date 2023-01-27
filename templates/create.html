@@ -1,0 +1,12 @@
+{% extends "exxen.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="container containers mt-5">
+        <form action="" method="POST" class="w-50 m-auto mt-5 text-light" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{form}}
+            <input type="submit" class="btn btn-outline-success d-block mt-2" value="Oluştur">
+        </form>
+    </div>
+{% endblock content %}

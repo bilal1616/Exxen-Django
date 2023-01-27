@@ -1,0 +1,15 @@
+{% extends "exxen.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="container containers mt-5">
+        <form action="" method="POST" class="w-50 m-auto mt-5 text-light">
+            {% csrf_token %}
+            <label for="">Kullanıcı Adı:</label>
+            <input type="text" name="kullanici" id="" class="form-control">
+            <label for="">Şifre</label>
+            <input type="password" name="sifre" id="" class="form-control">
+            <input type="submit" class="btn btn-outline-success d-block mt-2" value="Giriş yap">
+        </form>
+    </div>
+{% endblock content %}
